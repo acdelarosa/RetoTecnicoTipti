@@ -29,6 +29,7 @@ Este programa de reserva de hotel, permite seleccionar si es cliente normal o co
 - A futuro necesitaría agregarse la cantidad de personas y tipos de cuarto
 - Se necesita implementar una api para almacenar y manejar las reservas de mejor manera, ya que actualmente no se almacenan las reservas
 - No muestra la disponibilidad de habitaciones y días
+- Cualquier cliente podría acceder y reservar habitaciones con y sin recompensas, se necesita agregar un login. E implementar una api para los usuarios
 
 ## Ejecución
 Para ejecutar el programa actual solo se debe descargar el repositorio de github (https://github.com/acdelarosa/RetoTecnicoTipti.git)
