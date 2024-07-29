@@ -108,12 +108,22 @@ En el precio va a estar la tarifa total, digamos si selecciono solo un dpia solo
 
 function mostrarHotelmasBarato(hotel, price) {
   const hotelDiv = document.getElementById('hotelMasBarato');
-
+  const estrellas = obtenerEstrellas(hotel.calificacion);
   hotelDiv.innerHTML = `
       <div class="hotel-card"> <br>
           <h3>${hotel.nombre}</h3> <br>
-          <p>Calificación: ${calificacion} </p> <br>
+          <p>Calificación: ${estrellas} </p> <br>
           <p>Precio: $${price}</p>
       </div>
   `;
+}
+
+
+/* función para reemplazar el número de la calificación por la imagen estrella */
+function obtenerEstrellas(calificacion) {
+  let estrellasHTML = '';
+  for (let i = 0; i < calificacion; i++) {
+      estrellasHTML += '<img src="estrella.jpg" alt="estrella" width="20" height="20">';
+  }
+  return estrellasHTML;
 }
