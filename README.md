@@ -3,7 +3,7 @@
 Este programa de reserva de hotel, permite seleccionar si es cliente normal o con recompensas. Una vez seleccionado la opción anterior permite agregar fechas para poder verificar las tarifas de cada hotel de la cadena.
 
 
-## Estructura de las carpetas.
+## Estructura del programa
 
 ````bash
 
@@ -27,7 +27,7 @@ Este programa de reserva de hotel, permite seleccionar si es cliente normal o co
 - No se pueden seleccionar varios hoteles
 - No se pueden seleccionar un hotel con recompensas y uno normal al mismo tiempo
 - A futuro necesitaría agregarse la cantidad de personas y tipos de cuarto
-- Se necesita implementar una api para almacenar y manejar las reservas de mejor manera
+- Se necesita implementar una api para almacenar y manejar las reservas de mejor manera, ya que actualmente no se almacenan las reservas
 - No muestra la disponibilidad de habitaciones y días
 
 ## Ejecución
