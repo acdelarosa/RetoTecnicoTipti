@@ -123,7 +123,7 @@ function mostrarHotelmasBarato(hotel, price) {
 function obtenerEstrellas(calificacion) {
   let estrellasHTML = '';
   for (let i = 0; i < calificacion; i++) {
-      estrellasHTML += '<img src="estrella.jpg" alt="estrella" width="20" height="20">';
+      estrellasHTML += '<imagenes\estrella.jpg" alt="estrella" width="20" height="20">';
   }
   return estrellasHTML;
 }
