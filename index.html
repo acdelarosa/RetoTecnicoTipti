@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Hoteles</title>
+
+</head>
+
+<body>
+    <div>
+        <h1 class="titulo">Reserva de Hoteles</h1>
+    </div>
+    <div>
+        <div>
+            <form id="form-reservacion">
+                <p>Tipo de Cliente:</p>
+                <select id="tipodeCliente">
+                    <option class="normal" value="regular">Cliente regular</option>
+                    <option class="recompensa" value="rewards">Cliente con Recompensas</option>
+                </select>
+        </div>
+        <div>
+            <p>Seleccione la fecha de reserva:</p>
+            <input type="date" id="dates" min="2024-07-28" max="2050-12-31" required>
+            <button type="button" onclick="agregarFecha()">Agregar Fecha</button>
+            <br><br>
+            <ul id="listadeFechas"></ul>
+            <button type="button" onclick="findCheapestHotel()">Buscar mejor opción de reserva</button>
+        </div>
+        </form>
+    </div>
+    <div>
+        <h2>Mejor opción de Hotel</h2>
+        <div id="hotelMasBarato"></div>
+    </div>
+    <script src="src\hoteles.js"></script>
+</body>
+
+</html>
