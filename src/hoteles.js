@@ -110,7 +110,7 @@ function mostrarHotelmasBarato(hotel, price) {
   const hotelDiv = document.getElementById('hotelMasBarato');
   const estrellas = obtenerEstrellas(hotel.calificacion);
   hotelDiv.innerHTML = `
-      <div class="hotel-card"> <br>
+      <div class="finalHotel"> <br>
           <h3>${hotel.nombre}</h3> <br>
           <p>Calificación: ${estrellas} </p> <br>
           <p>Precio: $${price}</p>

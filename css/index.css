@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: merriweather;
+}
+
+body {
+  background: #0a3007;
+}
+
+.img{
+  width: 15%;
+  height: 15%;
+}
+
+
+.todo {
+  color: black;
+  width: 900px;
+  height: 550px;
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+  padding-left: 15px;
+}
+
+#listadeFechas{
+  list-style: none;
+}
+
+.tittle{
+  align-items: center;
+}
+
+h1{
+  color: #287233;
+  font-family: cherry swash;
+  font-size: 60px;
+}
+
+#tipodeCliente{
+  background-color: #21851a;
+  border: 2px solid black;
+}
+
+.clientType{
+  font-size: 20px;
+  font-family: roboto slab;
+  font-weight: bolder;
+}
+
+#tipodeCliente:hover{
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.optionTittle{
+  font-size: 20px;
+  font-family: roboto slab;
+  font-weight: bolder;
+}
+
+.note{
+  font-size: 10px;
+}
+
+li{
+  font-size: 12px;
+  padding: 5px;
+}
+
+#dates{
+  background-color: #21851a;
+  border: 2px solid black;
+}
+
+#dates:hover{
+  cursor: pointer;
+}
+
+.add{
+  background-color: #21851a;
+  border: 2px solid black;
+}
+
+.add:hover{
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.findCheapestHotel{
+  background-color: #21851a;
+  border: 2px solid black;
+}
+
+.findCheapestHotel:hover{
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.bestHotel{
+  font-size: 25px;
+  padding-top: 15px;
+  font-family: roboto slab;
+}
+
+h3{
+  font-size: 23px;
+  font-weight: bolder;
+}
